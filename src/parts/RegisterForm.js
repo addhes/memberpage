@@ -50,7 +50,7 @@ function LoginForm({ history }) {
         </h1>
         <form onSubmit={submit}>
           <Input
-            value={email}
+            value={name}
             error={ERRORS?.name?.message}
             nama="name"
             onChange={setState}
