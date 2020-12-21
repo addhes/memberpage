@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { withRouter } from "react-router-dom";
-import { useDispatch } from "react-redux";
 import Fade from "react-reveal";
 
 import users from "../constants/api/users";
@@ -12,7 +11,6 @@ import Select from "../components/Form/Select";
 import Input from "../components/Form/Input";
 
 function LoginForm({ history }) {
-  const dispatch = useDispatch();
 
   const [
     { name, email, password, profession, otherProfession },
