@@ -29,7 +29,7 @@ export default function Input({
         onChange={onChange}
         type={type}
         className={[
-          "bg-white focus:outline-none border w-full px-6 py-3 w-1/2  ",
+          "bg-white focus:outline-none border md:w-full px-6 py-3 w-1/2  ",
           error
             ? "border-red-500 text-red-500"
             : "focus:border-teal-500 border-gray-600 text-gray-600",

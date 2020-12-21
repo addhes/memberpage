@@ -16,9 +16,7 @@ function LoginForm({ history }) {
 
   const [{ email, password}, setState] = useForm({
     email: "", password:"",
-  });
-
-   
+  });   
 
   function submit(e) {
     e.preventDefault();
@@ -62,7 +60,7 @@ function LoginForm({ history }) {
 
   return (
     <div className="flex justify-center items-center pb-20">
-      <div className="w-full sm:w-3/12 mt-12 sm:mt-12 sm:ml-14">
+      <div className="w-full sm:w-3/12 mt-6 sm:mt-12 sm:ml-14">
         <h1 className="text-4xl text-gray-900 mb-6 leading-11 ml-12 md:ml-0">
           <span className="font-bold">Continue</span> Study <br/>
           Finish your <span className="font-bold">Goals</span>
@@ -97,7 +95,7 @@ function LoginForm({ history }) {
           </div>
           <button
             type="submit"
-            className="bg-orange-500 hover:bg-orange-400 mt-5 w-9/12 transition-all duration-200 hover:text-black focus:outline-none shadow-inner text-white py-3 ml-11 md:ml-0"
+            className="bg-orange-500 hover:bg-orange-400 mt-5 md:mt-5 w-9/12 transition-all duration-200 hover:text-black focus:outline-none shadow-inner text-white py-3 ml-11 md:ml-0"
           >
             Masuk
           </button>

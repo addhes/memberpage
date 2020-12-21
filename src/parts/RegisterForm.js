@@ -52,7 +52,7 @@ function LoginForm({ history }) {
           <Input
             value={name}
             error={ERRORS?.name?.message}
-            nama="name"
+            name="name"
             onChange={setState}
             placeholder="Your Name"
             labelName="Full Name"            
@@ -118,7 +118,7 @@ function LoginForm({ history }) {
 
       <div className="w-1/12"></div>
 
-      <div className="w-5/12 hidden md:flex justify-end pt-24 pr-16">
+      <div className="w-5/12 hidden md:flex justify-end pt-24 pr-10">
         <div className="relative" style={{ width: 354, height: 390 }}>
           <div
             className="absolute border-indigo-700 border-2 -mt-8 -ml-16 left-0"
